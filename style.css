@@ -1,0 +1,122 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:1000px;
+}
+p{
+    
+    color:#111;
+}
+
+img{
+    max-width: 100%;
+}
+.banner{
+    position:relative;
+    width: 100%;
+    min-height:100vh ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image/cook.jpg");
+    background-size: cover;
+ 
+}
+
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content h2{
+    font-size: 5em;
+    color:#fff
+}
+.banner .content p{
+    font-size: 1em;
+    color:#fff;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 100px;
+    z-index:1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+     background: #fff;
+     padding:10px 80px;
+     box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+header.sticky .logo{
+     color:#111;
+}
+
+header .logo{
+     color: #fff;
+     font-weight: 700;
+     font-size: 2em;
+     text-decoration: none;
+}
+
+header .logo span{
+    color:#ff0157;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a {
+      text-decoration: none;
+      color:#fff;
+      font-weight: 300;
+}
+
+
+header .navigation li a:hover{
+    color:#ff0157
+}
+header.sticky .navigation li a{
+    color:#111;
+}
+
+header.sticky .navigation li a:hover{
+    color:#ff0157
+}
+
+section{
+    padding:100px;
+}
+
+.row{
+    
+     display:flex;
+     justify-content: space-between;   
+}
+
+.row .col50{
+
+    width:48%;
+}

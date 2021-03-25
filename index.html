@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class= "logo">Food<span>.</span></a>
+        <ul class="navigation">
+         <li><a href="#banner">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#menu">Menu</a></li>
+         <li><a href="#chef">Chef</a></li>
+         <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+     <section class="banner" id="banner">
+         <div class="content">
+             <h2>Always Choose Good</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, voluptatem quod! Cupiditate?</p>
+         </div>
+     </section>
+
+
+     <section class="about" id="about">
+         <div class="row">
+            <div class="col50">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit tenetur reprehenderit provident quos ad ex libero laborum quas obcaecati optio distinctio enim recusandae earum, illo eveniet amet asperiores minima reiciendis cupiditate laudantium quam? Dolores eum perferendis soluta alias.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio sunt in autem doloribus harum possimus eveniet libero, voluptatum laudantium corrupti?</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="image/img1.jpg"
+                </div>
+            </div>
+         </div>
+
+     </section>
+    <script type ="text/javascript">
+       window.addEventListener('scroll', function(){
+           const header=document.querySelector('header');
+             header.classList.toggle("sticky", window.scrollY > 0);
+       });
+    </script>
+</body>
+</html>
