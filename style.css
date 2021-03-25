@@ -25,7 +25,7 @@ img{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("image/cook.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("image/foodnw222.jpg");
     background-size: cover;
  
 }
