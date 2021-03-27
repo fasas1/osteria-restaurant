@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class= "logo">Food<span>.</span></a>
+        <a href="#" class= "logo">Osteria<span>.</span></a>
         <ul class="navigation">
          <li><a href="#banner">Home</a></li>
          <li><a href="#about">About</a></li>
@@ -22,8 +22,8 @@
 
      <section class="banner" id="banner">
          <div class="content">
-             <h2>Always Choose Good</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, voluptatem quod! Cupiditate?</p>
+             <h2>Osteria</h2>
+            <h5>Redefined Italian Cuisine</h5>
          </div>
      </section>
 
@@ -31,23 +31,125 @@
      <section class="about" id="about">
          <div class="row">
             <div class="col50">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit tenetur reprehenderit provident quos ad ex libero laborum quas obcaecati optio distinctio enim recusandae earum, illo eveniet amet asperiores minima reiciendis cupiditate laudantium quam? Dolores eum perferendis soluta alias.</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio sunt in autem doloribus harum possimus eveniet libero, voluptatum laudantium corrupti?</p>
+                <h2>A Culinery Philosophy</h2> <br>  
+                <div class="line">
+                    <span class='line-1'></span><br>
+                    <span class='line-2'></span><br>
+                    <span class='line-3'></span>
+                </div>
+                <br>            
+<p>Kilimanjaro is one of the Sundry Foods’ restaurant brands, operating in the Quick Service Restaurant (QSR) segment, the brand has established itself as a market leader and one of the fastest-growing restaurant brands in the country with currently 48 stores across Nigeria and more to come.
+    <br> <br>Kilimanjaro caters to the unique preference of the general populace in this part of sub-Saharan Africa for its local dishes. Our unique menu consists of select popular contemporary and Nigerian offerings.</p>
             </div>
             <div class="col50">
                 <div class="imgBx">
-                    <img src="image/img1.jpg"
+                    <img src="image/about-img.jpg">
                 </div>
             </div>
-         </div>
-
+         </div><br>
+         <div class="line">
+            <span class='line-1'></span><br>
+            <span class='line-2'></span><br>
+            <span class='line-3'></span>
+        </div>
      </section>
+
+     <section class="menu" id="our-menu"> 
+           <div class="container">
+              <div class="roww">
+                      <h2>Our Menu</h2>
+              </div>
+
+              <div class="row">
+                  <div class="menu-tabs">
+                    <button type="btn" class="menu-tab-item" data-target="#lunch">Lunch</button>
+                    <button type="btn" class="menu-tab-item" data-target="#dinner">Dinner</button>
+                    <button type="btn" class="menu-tab-item" data-target="#dessert">Dessert</button>
+                    <button type="btn" class="menu-tab-item" data-target="#drinks">Drinks</button>
+                  </div>
+              </div>
+
+          <div class="row menu-tab-content">
+              <div class="menu-item-title">
+                  <img src="image/menu/1.jpg">
+                  <h4>Lunch Time</h4>
+              </div>
+              <div class="menu-item-price">
+                  $40:00
+              </div>
+              <div class="menu-item-title">
+                <img src="image/menu/2.jpg">
+                <h4>Lunch Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+            <div class="menu-item-title">
+                <img src="image/menu/3.jpg">
+                <h4>Lunch Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+          </div>
+            
+          
+          <div class="row menu-tab-content">
+            <div class="menu-item-title">
+                <img src="image/menu/4.jpg">
+                <h4>Dinner Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+            <div class="menu-item-title">
+                <img src="image/menu/5.jpg">
+                <h4>Dinner Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+            <div class="menu-item-title">
+                <img src="image/menu/6.jpg">
+                <h4>Dinner Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+          </div>
+
+           
+          <div class="row menu-tab-content">
+            <div class="menu-item-title">
+                <img src="image/menu/4.jpg">
+                <h4>Dessert Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+            <div class="menu-item-title">
+                <img src="image/menu/7.jpg">
+                <h4>Dessert Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+            <div class="menu-item-title">
+                <img src="image/menu/8.jpg">
+                <h4>Dessert Time</h4>
+            </div>
+            <div class="menu-item-price">
+                $40:00
+            </div>
+      </div>
+     </section>
+
+
+
     <script type ="text/javascript">
        window.addEventListener('scroll', function(){
            const header=document.querySelector('header');
-             header.classList.toggle("sticky", window.scrollY > 0);
+             header.classList.toggle("sticky", window.scrollY > 40);
        });
     </script>
 </body>

@@ -1,9 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+       font-family: 'sansita swashed';
     box-sizing: border-box;
 }
 
@@ -11,10 +11,15 @@ body{
     min-height:1000px;
 }
 p{
-    
+    font-family: 'roboto';
     color:#111;
 }
 
+
+.container{
+     margin:0px auto;
+     max-width: 1200px;
+}
 img{
     max-width: 100%;
 }
@@ -25,11 +30,16 @@ img{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("image/foodnw222.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url("image/home-bg.jpg");
     background-size: cover;
  
 }
 
+.content h5{
+      margin-top: 20px;
+      font-size: 28px;
+      color: #fff;
+}
 .banner .content{
     max-width: 900px;
     text-align: center;
@@ -75,7 +85,7 @@ header .logo{
 }
 
 header .logo span{
-    color:#ff0157;
+    color:orangered;
 }
 
 header .navigation{
@@ -96,18 +106,18 @@ header .navigation li a {
 
 
 header .navigation li a:hover{
-    color:#ff0157
+    color:orangered
 }
 header.sticky .navigation li a{
     color:#111;
 }
 
 header.sticky .navigation li a:hover{
-    color:#ff0157
+    color:orangered
 }
 
 section{
-    padding:100px;
+    padding:50px;
 }
 
 .row{
@@ -119,4 +129,64 @@ section{
 .row .col50{
 
     width:48%;
+}
+
+.col50 h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: orangered;
+    display: inline-block;
+    isolation: isolate;
+}
+
+
+.line-2{
+    width: 80px;
+    height: 3px;
+    background: orangered;
+    display: inline-block;
+    isolation: isolate;
+}
+
+
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: orangered;
+    display: inline-block;
+    isolation: isolate;
+}
+
+.line{
+    line-height: 8px;
+}
+
+
+/**** Menu ****/
+
+.menu .roww h2{
+     font-size: 37px;
+    color:orangered;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.menu-tabs{
+      
+      margin: auto;
+}
+
+ .menu-tabs .menu-tab-item{
+    font-size: 18px;
+    text-transform: capitalize;
+    border:none;
+    border-radius: 10px;
+    background-color: orangered;
+    margin-top: 20px;
+    padding:12px 10px;
+    cursor: pointer;
 }
