@@ -364,3 +364,40 @@ form input{
      flex-basis: 48%;
      padding: 18px 0;
 }
+
+
+/****** footer ******/
+
+
+footer{
+    padding: 50px 0 30px;
+}
+
+hr{
+    width: 100%;
+    border:0;
+    border-top: 1px solid #f67c92;
+}
+
+.footer-row{
+     display:flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+.footer-left{
+      flex-basis: 50%;
+      margin-top: 60px;
+}
+
+.footer-right{
+      flex-basis: 35%;
+}
+
+.footer-links,.footer-info{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
