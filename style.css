@@ -9,6 +9,7 @@
 
 body{
     min-height:1000px;
+    background:rgb(231, 228, 228);
 }
 p{
     font-family: 'roboto';
@@ -18,11 +19,31 @@ p{
 
 .container{
      margin:0px auto;
-     max-width: 1200px;
+     max-width: 1170px;
 }
 img{
     max-width: 100%;
 }
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
 .banner{
     position:relative;
     width: 100%;
@@ -120,13 +141,13 @@ section{
     padding:50px;
 }
 
-.row{
+.boo{
     
      display:flex;
      justify-content: space-between;   
 }
 
-.row .col50{
+.boo .col50{
 
     width:48%;
 }
@@ -168,25 +189,178 @@ section{
 
 /**** Menu ****/
 
-.menu .roww h2{
-     font-size: 37px;
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+ .row h2{
+     font-size: 47px;
     color:orangered;
     text-align: center;
-    margin-top: 0px;
+    margin: auto;
+} 
+
+.row .menu-tabs{
+     width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.menu-tabs{
-      
-      margin: auto;
-}
-
- .menu-tabs .menu-tab-item{
+  .menu-tab-item{
     font-size: 18px;
     text-transform: capitalize;
     border:none;
     border-radius: 10px;
-    background-color: orangered;
-    margin-top: 20px;
+    background-color: transparent;
+    margin: 0 10px 10px;
     padding:12px 10px;
     cursor: pointer;
+}
+
+
+.active{
+    color:orangered;
+}
+
+.menu-tab-item .active{
+    color: orangered;
+}
+
+
+.menu-tab-content{
+   display: none;
+}
+
+.menu-tab-content.active{
+    display: flex;
+}
+.menu-item {
+  width: 50%;
+  padding:20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.menu-item-title{
+     display: flex;
+     align-items: center;
+}
+
+.menu-item-title h4{
+      font-size: 17px;
+      transition: color 0.3s ease;
+}
+
+
+.menu-item:hover .menu-item-title h4 {
+    color:orchid;
+}
+.menu-item-price{
+     font-size: 16px;
+     color:orangered;
+}
+
+.menu-item:hover .menu-item-price{
+      color:white;
+}
+.menu-item-title img{
+      max-width: 100px;
+      margin-right: 20px;
+}
+
+
+/***** page */
+
+.info{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba( 0,0,0,0.8)), url('image/assort.jpg');
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page h2{
+    font-size: 44px;
+    color:#fff;
+}
+
+.page p{
+     color:#fff;
+     font-size: 22px;
+     text-align: center;
+     margin-top: 20px;
+}
+
+
+/***** chefs ****/
+.chef img{
+    width:50%;
+    margin-top: 30px;
+   
+}
+
+.our-chefs h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.chefs  {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.chef h5{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/**** Contact ****/
+
+
+.contact-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-left, .contact-right{
+      flex-basis: 50%;
+}
+
+.contact-right img{
+    width:100%;
+}
+
+form{
+   max-width: 350px;
+   margin: 30px 0;
+}
+
+form input{
+    width:100%;
+    padding:12px 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: none;
+}
+
+.bttn-box{
+   width:100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.bttn-box button{
+     flex-basis: 48%;
+     padding: 18px 0;
 }
