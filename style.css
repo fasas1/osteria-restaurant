@@ -376,28 +376,31 @@ footer{
 hr{
     width: 100%;
     border:0;
-    border-top: 1px solid #f67c92;
+    border-top: 1px solid orangered;
+    margin-bottom: 20px;
+}
+ 
+
+
+#footer-wrap{
+    
+    padding: 20px;
+   
+    text-align: center;
+    font-size: 18px;
 }
 
-.footer-row{
-     display:flex;
-     align-items: center;
-     justify-content: space-around;
-     flex-wrap: wrap;
+#footer-wrap .container-footer{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-gap: 1rem;
 }
 
-.footer-left{
-      flex-basis: 50%;
-      margin-top: 60px;
-}
+.container-footer li{
+    list-style: none;
 
-.footer-right{
-      flex-basis: 35%;
 }
-
-.footer-links,.footer-info{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.footer-end h5{
+    font-size: 21px;
+    margin-bottom: 15px;
 }
