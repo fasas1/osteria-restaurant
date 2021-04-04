@@ -256,7 +256,7 @@ section{
 
 
 .menu-item:hover .menu-item-title h4 {
-    color:orchid;
+    color:rgb(37, 37, 37);
 }
 .menu-item-price{
      font-size: 16px;
@@ -264,7 +264,7 @@ section{
 }
 
 .menu-item:hover .menu-item-price{
-      color:white;
+      color:rgb(17, 17, 17);
 }
 .menu-item-title img{
       max-width: 100px;
