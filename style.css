@@ -472,6 +472,22 @@ footer p{
    .banner .content h2{
         font-size: 3em;
    }
+ 
 
+  
+.boo{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+
+
+.boo .col50, .boo .col50 img{
+ 
+   width:100%;
+}
   
 }
