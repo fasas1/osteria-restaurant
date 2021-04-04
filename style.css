@@ -461,7 +461,17 @@ footer p{
     background-position:center;
     cursor:pointer;
    }
-   header.sticky, .menuToggle{
-       filter:inverse(1)
+   header.sticky  .menuToggle{
+       filter:invert(1)
    }
+
+   section{
+        padding:20px;
+   }
+
+   .banner .content h2{
+        font-size: 3em;
+   }
+
+  
 }
