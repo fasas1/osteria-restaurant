@@ -9,7 +9,7 @@
 
 body{
     min-height:1000px;
-    background:rgb(231, 228, 228);
+    
 }
 p{
     font-family: 'roboto';
@@ -23,6 +23,7 @@ p{
 }
 img{
     max-width: 100%;
+    width: 100%;
 }
 
 
@@ -186,6 +187,36 @@ section{
     line-height: 8px;
 }
 
+/** WORKS ****/
+
+.works{
+   display:flex;
+   align-items: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.works .boxes img{
+    width:100%;
+   
+}
+
+.works h1{
+    font-size: 40px;
+    text-align: center;
+   
+}
+ 
+.boxes h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.boxes p{
+    text-align: center;
+}
 
 /**** Menu ****/
 
