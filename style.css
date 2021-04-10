@@ -198,9 +198,11 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:90px 30px;
 }
 .works .boxes img{
     width:100%;
+    margin-bottom: 50px;
    
 }
 
@@ -216,6 +218,8 @@ section{
 }
 .boxes p{
     text-align: center;
+    padding:0 10px;
+    
 }
 
 /**** Menu ****/
