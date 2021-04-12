@@ -452,7 +452,7 @@ footer p{
     margin-top: 20px;
 }
 
-
+/*** Media queries **/
 @media (max-width :768px){
    header, header.sticky{
        padding: 10px 20px;
