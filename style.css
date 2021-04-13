@@ -557,4 +557,10 @@ footer p{
 .contact-left h1{
      text-align: center;
 }
+
+ 
+ .boxes{
+     padding:30px 20px;
+     flex-direction: column;
+ }
 }
