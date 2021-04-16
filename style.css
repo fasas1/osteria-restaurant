@@ -563,4 +563,41 @@ footer p{
      padding:30px 20px;
      flex-direction: column;
  }
+
+ .row h2{
+    font-size: 37px;
+   
+} 
+.menu-tab-content{
+  display: none;
+}
+
+.menu-tab-content.active{
+   display: flex;
+}
+.menu-item {
+ padding:10px 15px;
+}
+
+
+.menu-item-price{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.menu-item-title img{
+     max-width: 100px;
+     margin-right: 5px;
+}
+}
+
+@media (max-width:500px) {
+    .menu-item-title h4{
+      display: none;
+    }
+
+.menu-item-price{
+   
+    margin-left: 30px;
+}
 }
