@@ -14,12 +14,13 @@ body{
 p{
     font-family: 'roboto';
     color:#111;
+    font-size: 17px;
 }
 
 
 .container{
      margin:0px auto;
-     max-width: 1170px;
+     max-width: 1200px;
 }
 img{
     max-width: 100%;
@@ -47,7 +48,7 @@ img{
 
 .banner{
     position:relative;
-    width: 100%;
+    min-width: 100%;
     min-height:100vh ;
     display:flex;
     justify-content: center;
@@ -63,7 +64,7 @@ img{
       color: #fff;
 }
 .banner .content{
-    max-width: 900px;
+
     text-align: center;
 }
 
@@ -71,8 +72,8 @@ img{
     font-size: 5em;
     color:#fff
 }
-.banner .content p{
-    font-size: 1em;
+.banner .content h5{
+    font-size: 1.6em;
     color:#fff;
 }
 
@@ -320,7 +321,7 @@ section{
 }
 
 .page h2{
-    font-size: 44px;
+    font-size: 40px;
     color:#fff;
 }
 
@@ -339,13 +340,13 @@ section{
    
 }
 
-.our-chefs h1{
+.our-chefs h2{
     font-size: 36px;
     text-align: center;
 }
 
 .our-chefs p{
-    font-size: 22px;
+    font-size: 20px;
     margin: 30px 0;
     text-align: left;
     
@@ -429,7 +430,7 @@ hr{
     padding: 20px;
    
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #footer-wrap .container-footer{
@@ -443,7 +444,7 @@ hr{
 
 }
 .footer-end h5{
-    font-size: 21px;
+    font-size: 19px;
     margin-bottom: 15px;
 }
 
@@ -514,7 +515,10 @@ footer p{
         font-size: 3em;
    }
  
-
+   .banner{
+       min-height: 50vh;
+      
+   }
   
 .boo{
     
@@ -600,4 +604,31 @@ footer p{
    
     margin-left: 30px;
 }
+
+
+.info{
+    min-height: 200px;
 }
+
+.page h2{
+font-size: 22px;
+text-align: center;
+}
+
+.page p{
+    font-size: 16px;
+    }
+
+    .banner .content h2{
+            font-size: 2em;
+    }
+
+    
+.our-chefs h2{
+    font-size: 28px;
+}
+.our-chefs p{
+    font-size: 16px;
+}
+}
+
