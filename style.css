@@ -517,7 +517,8 @@ footer p{
  
    .banner{
        min-height: 50vh;
-      
+
+       width: 100%;
    }
   
 .boo{
@@ -528,7 +529,9 @@ footer p{
     flex-direction: column; 
 }
 
-
+ .col50 h3{
+    font-size: 20px;
+}
 
 .boo .col50, .boo .col50 img{
    margin-top: 10px;
@@ -604,8 +607,6 @@ footer p{
    
     margin-left: 30px;
 }
-
-
 .info{
     min-height: 200px;
 }
@@ -631,4 +632,3 @@ text-align: center;
     font-size: 16px;
 }
 }
-
