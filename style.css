@@ -201,6 +201,11 @@ section{
     align-items: center;
     padding:90px 30px;
 }
+
+.box-1:hover, .box-2:hover, .box-3:hover{
+    transform:translateY(-5px);
+}
+
 .works .boxes img{
     width:100%;
     margin-bottom: 50px;
@@ -357,6 +362,10 @@ section{
     align-items: center;
     text-align: center;
 }
+.chef:hover{
+    transform:translateY(-10px);
+
+} 
 
 .chef h5{
     font-size: 16px;
