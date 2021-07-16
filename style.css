@@ -480,8 +480,13 @@ footer p{
    header .navigation li a{
        text-decoration: none;
        color:#111;
-       font-size: 1.6em;
+       font-size: 1.8em;
    }
+
+   header .navigation li{
+    padding: 10px;
+   }
+
    header .navigation.active{
       width:100%;
       height:calc(100% - 68px);
