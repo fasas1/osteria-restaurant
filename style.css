@@ -483,15 +483,12 @@ footer p{
        font-size: 1.8em;
    }
 
-   header .navigation li{
-    padding: 10px 0;
-   }
 
    header .navigation.active{
       width:100%;
-      height:calc(100% - 68px);
+      height:calc(100% - 66px);
       position: fixed;
-      top:68px;
+      top:66px;
       left:0;
       display: flex;
       justify-content: center;
@@ -627,7 +624,7 @@ header .logo{
    }
 
    .col50 h2{
-    font-size: 25px;
+    font-size: 27px;
 }
 .menu-item-price{
    
